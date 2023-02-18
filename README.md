@@ -1,1 +1,0 @@
-Portfolio website for w3rew01f Terminal style
