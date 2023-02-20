@@ -1,0 +1,25 @@
+
+{
+   "name": "LiveTerm",
+   "short_name": "LiveTerm",
+   "theme_color": "#2E3440",
+   "background_color": "#2E3440",
+   "display": "fullscreen",
+   "orientation": "portrait",
+   "scope": "/",
+   "start_url": "/",
+ "icons": [
+  {
+   "src": "/icons8-cyber-security-ios-16-filled-72.png",
+   "sizes": "72x72",
+   "type": "image/png",
+   "density": "1.5"
+  },
+  {
+   "src": "/icons8-cyber-security-ios-16-filled-96.png",
+   "sizes": "96x96",
+   "type": "image/png",
+   "density": "2.0"
+  }
+ ]
+}
