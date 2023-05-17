@@ -10,16 +10,21 @@
    "start_url": "/",
  "icons": [
   {
-   "src": "/icons8-cyber-security-ios-16-filled-72.png",
-   "sizes": "72x72",
-   "type": "image/png",
-   "density": "1.5"
+   "src": "/favicon.ico",
+   "sizes": "48x48",
+   "type": "image/png"
   },
   {
-   "src": "/icons8-cyber-security-ios-16-filled-96.png",
-   "sizes": "96x96",
+   "src": "/favicon-16x16.png",
+   "sizes": "16x16",
    "type": "image/png",
    "density": "2.0"
-  }
+  },
+  {
+    "src": "/favicon-32x32.png",
+    "sizes": "32x32",
+    "type": "image/png",
+    "density": "2.0"
+   }
  ]
 }
