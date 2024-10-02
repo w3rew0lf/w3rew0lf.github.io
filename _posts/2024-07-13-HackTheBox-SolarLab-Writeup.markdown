@@ -13,6 +13,7 @@ IP Address: 10.10.11.16
 
 `echo "10.10.11.16 solarlab.htb" | sudo tee -a /etc/hosts`
 10.10.11.16 solarlab.htb
+
 ***
 ### Enumeration 
 

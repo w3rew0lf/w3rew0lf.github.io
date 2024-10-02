@@ -14,6 +14,7 @@ IP Address: 10.10.11.11
 
 `echo "10.10.11.11 boardlight.htb" | sudo tee -a /etc/hosts`
 10.10.11.11 boardlight.htb
+
 ***
 ### Enumeration 
 
@@ -56,6 +57,7 @@ after logging in larissa account and running linpeas we found
 quick google search returned a cve CVE-2022-37706
 running this script in machine gave us root 
 ![c9944044a84f44e5fa7a6a50bb2d0c4a.png]({{site.baseurl}}/images/post/c9944044a84f44e5fa7a6a50bb2d0c4a.png)
+
 ***
 # user flag
 Location:  /home/larissa | Flag: ad4c5ed4fc3e429c8a2346d0d336d5d9

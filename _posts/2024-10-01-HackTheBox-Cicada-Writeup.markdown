@@ -13,6 +13,7 @@ IP Address: 10.10.11.35
 
 `echo "10.10.11.35 cicada.htb" | sudo tee -a /etc/hosts`
 10.10.11.35 cicada.htb
+
 ***
 ### Enumeration 
 
