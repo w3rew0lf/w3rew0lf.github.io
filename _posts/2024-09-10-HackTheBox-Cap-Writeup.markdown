@@ -43,7 +43,7 @@ Password:Buck3tH4TF0RM3!
 logging in ftp using these creds
 
 
-Location: ftp | Flag: de1916424a3b005b46045bebd1cf361c
+Location: ftp | Flag: de1##################################
 
 
 
@@ -52,4 +52,4 @@ Location: ftp | Flag: de1916424a3b005b46045bebd1cf361c
 
 
 # root flag
-Location: /root | Flag: 7a3b20bf5ed03409f728f210e0a6ee67
+Location: /root | Flag: 7a3##################################

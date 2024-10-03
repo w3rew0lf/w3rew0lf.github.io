@@ -141,7 +141,7 @@ in dev share we find password for emily.oscars
 
 ***
 # user flag
-Location: C:\Users\emily.oscars.CICADA\Desktop | Flag: e83a7cc211031524c13a199fa637d0b1
+Location: C:\Users\emily.oscars.CICADA\Desktop | Flag: e83a7##################################
 ```
 
 ***
@@ -165,7 +165,7 @@ using Pass-the-hash `evil-winrm -i 10.10.11.35 -u 'administrator' -H '2b87e7c93a
 
 
 # root flag
-Location: :\Users\Administrator\Desktop | Flag: b1dc73a0bb9e94681e494c80388d99f3
+Location: :\Users\Administrator\Desktop | Flag: b1dc7##################################
 ```
 
 ```

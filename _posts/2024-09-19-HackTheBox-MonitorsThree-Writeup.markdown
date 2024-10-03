@@ -112,7 +112,7 @@ Succesfull Login
 
 ***
 # user flag
-Location: /home/marcus | Flag: 37bbbc1d93cfa2cea936fc82279720e3
+Location: /home/marcus | Flag: 37b##################################
 
 #### Privilege Escalation
 

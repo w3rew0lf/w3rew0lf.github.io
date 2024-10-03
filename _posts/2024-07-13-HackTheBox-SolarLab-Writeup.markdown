@@ -61,10 +61,10 @@ blakeb:ThisCanB3typedeasily1@
 ***
 
 # user flag
-Location: C:\Users\blake\Desktop  | Flag: cfeeadb3261b3507fddf84055ec296c2
+Location: C:\Users\blake\Desktop  | Flag: cfee##################################
 
 
 
 # root flag
-Location:C:\Users\Administrator\Desktop\root.txt  | Flag: e231949ecf562f5c172e560917188114
+Location:C:\Users\Administrator\Desktop\root.txt  | Flag: e23##################################
 

@@ -60,7 +60,7 @@ running this script in machine gave us root
 
 ***
 # user flag
-Location:  /home/larissa | Flag: ad4c5ed4fc3e429c8a2346d0d336d5d9
+Location:  /home/larissa | Flag: ad4c##################################
 
 after logging in larissa account and running linpeas we found 
 ![c97ba3c7c0203bf8ca7b1ca3af7f7ec2.png]({{site.baseurl}}/images/post/c97ba3c7c0203bf8ca7b1ca3af7f7ec2.png)
@@ -70,4 +70,4 @@ running this script in machine gave us root
 ![c9944044a84f44e5fa7a6a50bb2d0c4a.png]({{site.baseurl}}/images/post/c9944044a84f44e5fa7a6a50bb2d0c4a.png)
 
 # root flag
-Location:  /root | Flag: a875c049278b4b844fc9ffebd3cf5e47
+Location:  /root | Flag: a87##################################
