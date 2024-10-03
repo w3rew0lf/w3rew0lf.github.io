@@ -4,7 +4,7 @@ title: "HackTheBox: SolarLab - Writeup 13/07/2024"
 description: A writeup for Hackthebox SolarLab
 date:   2024-07-13 12:06:31 +0000
 image:  '/images/post/solarlab.jpg'
-tags:   [Hackthebox]
+tags:   [HackTheBox,htb]
 ---
 ## Setup
 `mkdir -p HackTheBox/solarlab/scans; cd HackTheBox/solarlab`

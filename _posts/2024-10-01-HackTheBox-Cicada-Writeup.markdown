@@ -4,7 +4,7 @@ title: "HackTheBox: Cicada - Writeup 01/10/2024"
 description: A writeup for Hackthebox Cicada
 date:   2024-10-01 12:06:31 +0000
 image:  '/images/post/cicada.jpg'
-tags:   [Hackthebox]
+tags:   [HackTheBox,htb]
 ---
 ## Setup
 `mkdir -p ~/ctf/HackTheBox/cicada/scans; cd ~/ctf/HackTheBox/cicada`

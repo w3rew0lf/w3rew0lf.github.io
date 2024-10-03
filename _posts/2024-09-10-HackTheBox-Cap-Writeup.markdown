@@ -4,7 +4,7 @@ title: "HackTheBox: Cap - Writeup 10/09/2024"
 description: A writeup for Hackthebox BoardLight
 date:   2024-09-10 12:06:31 +0000
 image:  '/images/post/cap.jpg'
-tags:   [Hackthebox,Linux]
+tags:   [HackTheBox,htb,Linux]
 ---
 ## Setup
 `mkdir -p ~/ctf/HackTheBox/cap/scans; cd ~/ctf/HackTheBox/cap`

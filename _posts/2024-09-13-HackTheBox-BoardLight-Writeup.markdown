@@ -4,7 +4,7 @@ title: "HackTheBox: BoardLight - Writeup 13/09/2024"
 description: A writeup for Hackthebox BoardLight
 date:   2024-09-13 12:06:31 +0000
 image:  '/images/post/boardlight.jpg'
-tags:   [Hackthebox,Linux]
+tags:   [HackTheBox,htb,Linux]
 ---
 
 ## Setup
