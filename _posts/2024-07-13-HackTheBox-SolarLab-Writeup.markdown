@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HackTheBox: SolarLab - Writeup 13/07/2024"
+title: "HackTheBox: SolarLab"
 description: A writeup for Hackthebox SolarLab
 date:   2024-07-13 12:06:31 +0000
 image:  '/images/post/solarlab.jpg'

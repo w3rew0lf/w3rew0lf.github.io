@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HackTheBox: Cicada - Writeup 01/10/2024"
+title: "HackTheBox: Cicada"
 description: A writeup for Hackthebox Cicada
 date:   2024-10-01 12:06:31 +0000
 image:  '/images/post/cicada.jpg'

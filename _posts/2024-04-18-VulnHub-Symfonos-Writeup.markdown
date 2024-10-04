@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VulnHub: Symfonos - Writeup 18/04/2024"
+title: "VulnHub: Symfonos"
 description: A writeup for VulnHub Symfonos
 date:   2024-04-18 12:06:31 +0000
 image:  '/images/post/symfonos.jpg'

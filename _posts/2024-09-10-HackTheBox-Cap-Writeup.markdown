@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HackTheBox: Cap - Writeup 10/09/2024"
+title: "HackTheBox: Cap"
 description: A writeup for Hackthebox BoardLight
 date:   2024-09-10 12:06:31 +0000
 image:  '/images/post/cap.jpg'
